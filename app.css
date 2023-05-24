@@ -1,0 +1,56 @@
+body{
+    margin: 0%;
+    background-color: goldenrod;
+}
+h1{
+    margin-left: 2.5vw;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+a:hover{
+    color:pink;
+}
+ul{
+    display: flex;
+    margin-right: 2vw;
+    
+}
+li{
+    list-style:none;
+    margin-left: 2rem;
+}
+.image{
+    height: 100vh;
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    padding-bottom: 2vw;
+}
+.footer{
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer>p{
+    font-size: 20px;
+    padding-bottom: 2vh;
+   
+}
+.navbar>nav{
+    display: flex;
+    justify-content: space-between
+}
+
+
+.container{
+    display: flex;
+}
+.container>div{
+    text-align:center;
+    margin-left: 2vw;
+}
